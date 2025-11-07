@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio-2</title>
+    <style>
+                * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .pagina {
+            width: 80%;
+            height: 95vh;
+            background-color: #fff;
+            border: 2px solid #999;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #f25c3c;
+            height: 20%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #009999;
+            display: flex;
+            gap: 15px;
+            padding: 5px 15px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contenido {
+            flex: 1;
+            display: flex;
+            background-color: #cdeaea;
+        }
+
+        .principal {
+            width: 70%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .caja {
+            background-color: #ccc;
+            height: 80px;
+            border: 2px solid #999;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #f6dcb6;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .caja-aside {
+            background-color: #f0e1a0;
+            height: 80px;
+            border: 2px solid #d9b87a;
+        }
+
+        footer {
+            background-color: #b44b7a;
+            height: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina">
+        <header>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+
+        <div class="contenido">
+            <section class="principal">
+                <div class="caja"></div>
+                <div class="caja"></div>
+                <div class="caja"></div>
+            </section>
+
+            <aside>
+                <div class="caja-aside"></div>
+                <div class="caja-aside"></div>
+                <div class="caja-aside"></div>
+            </aside>
+        </div>
+        <footer></footer>
+    </div>
+
+</body>
+</html>
